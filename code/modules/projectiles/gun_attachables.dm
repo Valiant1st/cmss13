@@ -3452,3 +3452,12 @@ Defined in conflicts.dm of the #defines folder.
 	accuracy_mod = HIT_ACCURACY_MULT_TIER_5
 	accuracy_unwielded_mod = HIT_ACCURACY_MULT_TIER_5
 	damage_mod -= BULLET_DAMAGE_MULT_TIER_4
+
+/obj/item/attachable/stock/AS30s
+	name = "\improper AS30 plastic stock"
+	desc = "Used by the top magazine fed AS30 intend to reduce recoil. Though you shouldn't able to take it out, YOU BLOODY C###!	"
+	icon_state = "bren_stock"
+	icon_state = "bren_stock"
+	wield_delay_mod = WIELD_DELAY_NONE
+	flags_attach_features = NO_FLAGS
+	hud_offset_mod = 2

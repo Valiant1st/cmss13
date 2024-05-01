@@ -499,3 +499,17 @@
 	item_state = "aug_dmr"
 	default_ammo = /datum/ammo/bullet/rifle/heap
 	ammo_band_color = AMMO_BAND_COLOR_HEAP
+
+/obj/item/ammo_magazine/rifle/rmc_AS30
+	name = "\improper AS30A1 magazine (10x24mm)"
+	desc = "A 10mm Light machine gun magazine used by the royal marines."
+	caliber = "10x24mm"
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/twe_ammo.dmi'
+	icon_state = "bren"
+	item_state = "bren"
+	w_class = SIZE_MEDIUM
+	default_ammo = /datum/ammo/bullet/rifle
+	max_rounds =75
+	gun_type = /obj/item/weapon/gun/rifle/rmc_AS30
+	ammo_band_icon = "+bren_band"
+	ammo_band_icon_empty = "+bren_band_e"
