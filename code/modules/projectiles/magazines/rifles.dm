@@ -457,6 +457,14 @@
 	max_rounds = 4
 	gun_type = /obj/item/weapon/gun/boltaction/vulture
 	w_class = SIZE_MEDIUM // maybe small? This shit's >4 inches long mind you
+	ammo_band_icon = "+vulture_band"
+	ammo_band_icon_empty = "+vulture_band_e"
+
+/obj/item/ammo_magazine/rifle/boltaction/vulture/holo_target
+	name = "\improper M707 \"Vulture\" holo-target magazine (20x102mm)"
+	desc = "A magazine for the M707 \"Vulture\" anti-matieriel rifle. Contains up to 4 massively oversized <b>IFF-CAPABLE</b> holo-targeting rounds, which excel at marking heavy targets to be attacked by allied ground forces. The logistical requirements for such capabilities heavily hinder the performance and stopping power of this round."
+	default_ammo =  /datum/ammo/bullet/sniper/anti_materiel/vulture/holo_target
+	ammo_band_color = AMMO_BAND_COLOR_HOLOTARGETING
 
 //=ROYAL MARINES=\\
 
@@ -499,17 +507,3 @@
 	item_state = "aug_dmr"
 	default_ammo = /datum/ammo/bullet/rifle/heap
 	ammo_band_color = AMMO_BAND_COLOR_HEAP
-
-/obj/item/ammo_magazine/rifle/rmc_AS30
-	name = "\improper AS30A1 magazine (10x24mm)"
-	desc = "A 10mm Light machine gun magazine used by the royal marines."
-	caliber = "10x24mm"
-	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/twe_ammo.dmi'
-	icon_state = "bren"
-	item_state = "bren"
-	w_class = SIZE_MEDIUM
-	default_ammo = /datum/ammo/bullet/rifle
-	max_rounds =75
-	gun_type = /obj/item/weapon/gun/rifle/rmc_AS30
-	ammo_band_icon = "+bren_band"
-	ammo_band_icon_empty = "+bren_band_e"
